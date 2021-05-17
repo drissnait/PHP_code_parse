@@ -1,0 +1,327 @@
+array(
+    0: Stmt_Use(
+        type: TYPE_NORMAL (1)
+        uses: array(
+            0: Stmt_UseUse(
+                type: TYPE_UNKNOWN (0)
+                name: Name(
+                    parts: array(
+                        0: Illuminate
+                        1: Foundation
+                        2: Auth
+                        3: Access
+                        4: AuthorizesRequests
+                    )
+                )
+                alias: null
+            )
+        )
+    )
+    1: Stmt_Use(
+        type: TYPE_NORMAL (1)
+        uses: array(
+            0: Stmt_UseUse(
+                type: TYPE_UNKNOWN (0)
+                name: Name(
+                    parts: array(
+                        0: Illuminate
+                        1: Foundation
+                        2: Bus
+                        3: DispatchesJobs
+                    )
+                )
+                alias: null
+            )
+        )
+    )
+    2: Stmt_Use(
+        type: TYPE_NORMAL (1)
+        uses: array(
+            0: Stmt_UseUse(
+                type: TYPE_UNKNOWN (0)
+                name: Name(
+                    parts: array(
+                        0: Illuminate
+                        1: Foundation
+                        2: Validation
+                        3: ValidatesRequests
+                    )
+                )
+                alias: null
+            )
+        )
+    )
+    3: Stmt_Class(
+        flags: 0
+        name: Identifier(
+            name: Foo
+        )
+        extends: null
+        implements: array(
+        )
+        stmts: array(
+            0: Stmt_Property(
+                flags: MODIFIER_PUBLIC (1)
+                type: null
+                props: array(
+                    0: Stmt_PropertyProperty(
+                        name: VarLikeIdentifier(
+                            name: bar
+                        )
+                        default: Scalar_LNumber(
+                            value: 2
+                        )
+                    )
+                )
+            )
+            1: Stmt_Property(
+                flags: MODIFIER_PUBLIC (1)
+                type: null
+                props: array(
+                    0: Stmt_PropertyProperty(
+                        name: VarLikeIdentifier(
+                            name: var2
+                        )
+                        default: Scalar_LNumber(
+                            value: 3
+                        )
+                    )
+                )
+            )
+            2: Stmt_Property(
+                flags: MODIFIER_PUBLIC (1)
+                type: null
+                props: array(
+                    0: Stmt_PropertyProperty(
+                        name: VarLikeIdentifier(
+                            name: var3
+                        )
+                        default: Scalar_LNumber(
+                            value: 4
+                        )
+                    )
+                )
+            )
+            3: Stmt_ClassMethod(
+                flags: 0
+                byRef: false
+                name: Identifier(
+                    name: func1
+                )
+                params: array(
+                    0: Param(
+                        type: null
+                        byRef: false
+                        variadic: false
+                        var: Expr_Variable(
+                            name: i
+                        )
+                        default: null
+                    )
+                    1: Param(
+                        type: null
+                        byRef: false
+                        variadic: false
+                        var: Expr_Variable(
+                            name: x
+                        )
+                        default: null
+                    )
+                )
+                returnType: null
+                stmts: array(
+                    0: Stmt_Expression(
+                        expr: Expr_Assign(
+                            var: Expr_Variable(
+                                name: res
+                            )
+                            expr: Expr_BinaryOp_Plus(
+                                left: Expr_BinaryOp_Plus(
+                                    left: Scalar_LNumber(
+                                        value: 5
+                                    )
+                                    right: Scalar_LNumber(
+                                        value: 4
+                                    )
+                                )
+                                right: Scalar_LNumber(
+                                    value: 5
+                                )
+                            )
+                        )
+                    )
+                    1: Stmt_Expression(
+                        expr: Expr_Variable(
+                            name: num
+                        )
+                    )
+                    2: Stmt_Return(
+                        expr: Expr_Variable(
+                            name: res
+                        )
+                    )
+                )
+            )
+            4: Stmt_ClassMethod(
+                flags: 0
+                byRef: false
+                name: Identifier(
+                    name: func2
+                )
+                params: array(
+                    0: Param(
+                        type: null
+                        byRef: false
+                        variadic: false
+                        var: Expr_Variable(
+                            name: a
+                        )
+                        default: null
+                    )
+                )
+                returnType: null
+                stmts: array(
+                    0: Stmt_Expression(
+                        expr: Expr_Assign(
+                            var: Expr_Variable(
+                                name: res
+                            )
+                            expr: Expr_BinaryOp_Plus(
+                                left: Scalar_LNumber(
+                                    value: 5
+                                )
+                                right: Scalar_LNumber(
+                                    value: 4
+                                )
+                            )
+                        )
+                    )
+                    1: Stmt_Expression(
+                        expr: Expr_Assign(
+                            var: Expr_Variable(
+                                name: k
+                            )
+                            expr: Expr_BinaryOp_Div(
+                                left: Scalar_LNumber(
+                                    value: 6
+                                )
+                                right: Scalar_LNumber(
+                                    value: 3
+                                )
+                            )
+                        )
+                    )
+                    2: Stmt_Return(
+                        expr: Expr_Variable(
+                            name: res
+                        )
+                    )
+                )
+            )
+            5: Stmt_Property(
+                flags: MODIFIER_PUBLIC (1)
+                type: null
+                props: array(
+                    0: Stmt_PropertyProperty(
+                        name: VarLikeIdentifier(
+                            name: var4
+                        )
+                        default: Scalar_LNumber(
+                            value: 7
+                        )
+                    )
+                )
+            )
+            6: Stmt_ClassMethod(
+                flags: 0
+                byRef: false
+                name: Identifier(
+                    name: fonc3
+                )
+                params: array(
+                )
+                returnType: null
+                stmts: array(
+                    0: Stmt_Return(
+                        expr: Expr_Variable(
+                            name: resultat
+                        )
+                    )
+                )
+            )
+            7: Stmt_Property(
+                flags: MODIFIER_PUBLIC (1)
+                type: null
+                props: array(
+                    0: Stmt_PropertyProperty(
+                        name: VarLikeIdentifier(
+                            name: var5
+                        )
+                        default: Scalar_LNumber(
+                            value: 9
+                        )
+                    )
+                )
+            )
+            8: Stmt_ClassMethod(
+                flags: 0
+                byRef: false
+                name: Identifier(
+                    name: finalFonction
+                )
+                params: array(
+                )
+                returnType: null
+                stmts: array(
+                    0: Stmt_Echo(
+                        exprs: array(
+                            0: Scalar_String(
+                                value: yess
+                            )
+                        )
+                    )
+                    1: Stmt_Return(
+                        expr: Expr_Variable(
+                            name: x
+                        )
+                    )
+                )
+            )
+            9: Stmt_ClassMethod(
+                flags: 0
+                byRef: false
+                name: Identifier(
+                    name: finalFonction2
+                )
+                params: array(
+                    0: Param(
+                        type: null
+                        byRef: false
+                        variadic: false
+                        var: Expr_Variable(
+                            name: test
+                        )
+                        default: null
+                    )
+                    1: Param(
+                        type: null
+                        byRef: false
+                        variadic: false
+                        var: Expr_Variable(
+                            name: o
+                        )
+                        default: null
+                    )
+                )
+                returnType: null
+                stmts: array(
+                    0: Stmt_Return(
+                        expr: Expr_Variable(
+                            name: o
+                        )
+                    )
+                )
+            )
+        )
+    )
+)
